@@ -1,0 +1,61 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "QCheckDBContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "QCheck.Domain.Entities",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "QCheck.Domain",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 2,
+   "Tables": [
+      {
+         "Name": "[qb].[BillAddr]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[qb].[CurrencyRef]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[qb].[Customer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[qb].[DefaultTaxCodeRef]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[qb].[ShipAddr]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[qb].[Term]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "pc02.QCheckDB.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
