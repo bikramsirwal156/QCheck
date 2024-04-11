@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using QCheck.Domain.Entities.DoneTable;
 #nullable disable
 namespace QCheck.Domain.Entities.Tabelneeded
 {

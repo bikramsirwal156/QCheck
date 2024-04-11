@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using QCheck.Domain.Entities.DoneTable;
+﻿using QCheck.Domain.Entities.DoneTable;
 #nullable disable
 namespace QCheck.Domain.Entities.Tabelneeded
 {
@@ -8,8 +6,8 @@ namespace QCheck.Domain.Entities.Tabelneeded
     {
         public Bill()
         {
-            this.ItemQuantities = new HashSet<ItemQuantity>();
-            this.VendorBillItemDetails = new HashSet<VendorBillItemDetail>();
+            ItemQuantities = new HashSet<ItemQuantity>();
+            VendorBillItemDetails = new HashSet<VendorBillItemDetail>();
         }
 
         public int BillId { get; set; }

@@ -1,6 +1,8 @@
-﻿using QCheck.Domain.Entities.DoneTable;
-#nullable disable
-namespace QCheck.Domain.Entities.Tabelneeded
+﻿#nullable disable
+using QCheck;
+using QCheck.Domain.Entities.Tabelneeded;
+
+namespace QCheck.Domain.Entities.DoneTable
 {
     public partial class Vendor
     {
@@ -28,9 +30,12 @@ namespace QCheck.Domain.Entities.Tabelneeded
         public string TaxIdentifier { get; set; }
         public string AcctNum { get; set; }
         public DateTime? CreateTime { get; set; }
+
         public DateTime? LastUpdatedTime { get; set; }
+
         public string Email { get; set; }
         public string Phone { get; set; }
+
         public virtual ICollection<Bill> Bills { get; set; }
         public virtual ICollection<BillPayment> BillPayments { get; set; }
         public virtual ICollection<VendorCredit> VendorCredits { get; set; }

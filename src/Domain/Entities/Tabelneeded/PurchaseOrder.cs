@@ -1,4 +1,6 @@
 ﻿#nullable disable
+using QCheck.Domain.Entities.DoneTable;
+
 namespace QCheck.Domain.Entities.Tabelneeded
 {
     public partial class PurchaseOrder
