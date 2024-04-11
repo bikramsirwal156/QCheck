@@ -1,4 +1,4 @@
-﻿using QCheck.Domain.Entities;
+﻿using QCheck.Domain.Entities.DoneTable;
 
 namespace QCheck.Application.Common.Models;
 

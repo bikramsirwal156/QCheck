@@ -20,7 +20,7 @@ namespace QCheck.Domain.Entities.Tabelneeded
         public DateTime? CreateTime { get; set; }
         public DateTime? LastUpdatedTime { get; set; }
         public string Status { get; set; }
-
+        public string VendorMemo { get; set; }
         public virtual ICollection<PurchaseOrderItemDetail> PurchaseOrderItemDetails { get; set; }
         public virtual Vendor Vendor { get; set; }
     }

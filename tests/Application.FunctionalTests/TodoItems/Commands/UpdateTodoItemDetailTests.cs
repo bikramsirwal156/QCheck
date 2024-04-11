@@ -2,7 +2,7 @@
 using QCheck.Application.TodoItems.Commands.UpdateTodoItem;
 using QCheck.Application.TodoItems.Commands.UpdateTodoItemDetail;
 using QCheck.Application.TodoLists.Commands.CreateTodoList;
-using QCheck.Domain.Entities;
+using QCheck.Domain.Entities.DoneTable;
 using QCheck.Domain.Enums;
 
 namespace QCheck.Application.FunctionalTests.TodoItems.Commands;

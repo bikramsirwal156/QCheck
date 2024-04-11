@@ -1,7 +1,11 @@
 ﻿#nullable disable
+using QCheck;
+
+
+#nullable disable
 using QCheck.Domain.Entities.DoneTable;
 
-namespace QCheck.Domain.Entities.Tabelneeded;
+namespace QCheck.Domain.Entities.DoneTable;
 public class TabConfiguration
 {
     public int TabConfigurationId { get; set; }
@@ -16,6 +20,5 @@ public class TabConfiguration
     public bool IsHideFromCustomer { get; set; }
     public string ImageUrl { get; set; }
     public int? VendorId { get; set; }
-
     public virtual Vendor Vendor { get; set; }
 }

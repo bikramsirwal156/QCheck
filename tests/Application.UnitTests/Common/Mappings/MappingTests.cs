@@ -5,8 +5,8 @@ using QCheck.Application.Common.Interfaces;
 using QCheck.Application.Common.Models;
 using QCheck.Application.TodoItems.Queries.GetTodoItemsWithPagination;
 using QCheck.Application.TodoLists.Queries.GetTodos;
-using QCheck.Domain.Entities;
 using NUnit.Framework;
+using QCheck.Domain.Entities.DoneTable;
 
 namespace QCheck.Application.UnitTests.Common.Mappings;
 

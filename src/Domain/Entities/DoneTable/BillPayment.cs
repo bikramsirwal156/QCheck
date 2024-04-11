@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using QCheck.Domain.Entities.DoneTable;
 #nullable disable
-namespace QCheck.Domain.Entities.Tabelneeded
+namespace QCheck.Domain.Entities.DoneTable
 {
     public partial class BillPayment
     {
@@ -15,7 +14,7 @@ namespace QCheck.Domain.Entities.Tabelneeded
         public DateTime? TxnDate { get; set; }
         public decimal? TotalAmt { get; set; }
         public string PayType { get; set; }
-        public bool? sparse { get; set; }
+        public bool? Sparse { get; set; }
         public DateTime? CreateTime { get; set; }
         public DateTime? LastUpdatedTime { get; set; }
         public virtual Vendor Vendor { get; set; }

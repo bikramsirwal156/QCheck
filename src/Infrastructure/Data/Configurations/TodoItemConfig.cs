@@ -1,6 +1,6 @@
-﻿using QCheck.Domain.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using QCheck.Domain.Entities.DoneTable;
 
 namespace QCheck.Infrastructure.Data.Configurations;
 

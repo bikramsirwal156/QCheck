@@ -1,7 +1,7 @@
 ﻿using QCheck.Application.Common.Exceptions;
 using QCheck.Application.TodoItems.Commands.CreateTodoItem;
 using QCheck.Application.TodoLists.Commands.CreateTodoList;
-using QCheck.Domain.Entities;
+using QCheck.Domain.Entities.DoneTable;
 
 namespace QCheck.Application.FunctionalTests.TodoItems.Commands;
 

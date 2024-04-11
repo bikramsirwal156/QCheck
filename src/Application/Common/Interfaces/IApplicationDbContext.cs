@@ -1,4 +1,5 @@
-﻿using QCheck.Domain.Entities;
+﻿using QCheck.Domain.Entities.DoneTable;
+using QCheck.Domain.Entities.Tabelneeded;
 
 namespace QCheck.Application.Common.Interfaces;
 

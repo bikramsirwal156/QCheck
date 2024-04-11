@@ -1,8 +1,13 @@
 ﻿
 #nullable disable
+using QCheck;
+
+
+
+#nullable disable
 using QCheck.Domain.Entities.DoneTable;
 
-namespace QCheck.Domain.Entities.Tabelneeded
+namespace QCheck.Domain.Entities.DoneTable
 {
     public partial class VendorCredit
     {

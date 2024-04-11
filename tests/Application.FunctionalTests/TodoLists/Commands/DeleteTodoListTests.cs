@@ -1,6 +1,6 @@
 ﻿using QCheck.Application.TodoLists.Commands.CreateTodoList;
 using QCheck.Application.TodoLists.Commands.DeleteTodoList;
-using QCheck.Domain.Entities;
+using QCheck.Domain.Entities.DoneTable;
 
 namespace QCheck.Application.FunctionalTests.TodoLists.Commands;
 
